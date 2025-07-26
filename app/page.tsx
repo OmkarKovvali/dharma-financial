@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import TestimonialCard from "@/components/testimonial-card"
+
 
 export default function Home() {
   return (
@@ -33,7 +33,7 @@ export default function Home() {
                 <span className="text-blue-400">Under One Roof</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
-                Comprehensive financial solutions designed to help you achieve your goals and secure your family's
+                Comprehensive financial solutions designed to help you achieve your goals and secure your family&apos;s
                 future.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
@@ -104,7 +104,7 @@ export default function Home() {
                   <BookOpen className="h-10 w-10 text-blue-600 mb-4" />
                   <CardTitle>College Planning</CardTitle>
                   <CardDescription>
-                    Prepare for your children's education with strategic savings and investment plans.
+                    Prepare for your children&apos;s education with strategic savings and investment plans.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -172,7 +172,7 @@ export default function Home() {
                 </h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed">
                   At Dharma Financial Services, we combine industry expertise with personalized attention to help you
-                  navigate life's financial complexities.
+                  navigate life&apos;s financial complexities.
                 </p>
                 <ul className="grid gap-4">
                   <li className="flex items-start">
@@ -213,7 +213,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/difference-between-money-finance-funds-717X404.jpg-2.webp"
                   width={500}
                   height={500}
                   alt="Dharma Financial Services team"
@@ -225,6 +225,7 @@ export default function Home() {
         </section>
 
         {/* Testimonials */}
+        {/* 
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -257,6 +258,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        */}
 
         {/* CTA Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-blue-600 text-white">

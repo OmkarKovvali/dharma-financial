@@ -41,7 +41,7 @@ export default function WhoWeServePage() {
                 <CardContent>
                   <ul className="space-y-2 text-sm text-gray-600">
                     <li>• First-time home buyers</li>
-                    <li>• New parents planning for children's education</li>
+                    <li>• New parents planning for children&apos;s education</li>
                     <li>• Building emergency funds and starting retirement savings</li>
                     <li>• Life insurance and protection planning</li>
                   </ul>
@@ -115,8 +115,8 @@ export default function WhoWeServePage() {
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Life Transitions We Navigate</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Major life events require specialized financial guidance. We're here to help you through these
-                  important transitions.
+                                  Major life events require specialized financial guidance. We&apos;re here to help you through these
+                important transitions.
                 </p>
               </div>
             </div>
@@ -175,7 +175,7 @@ export default function WhoWeServePage() {
                 Ready to Discuss Your Situation?
               </h2>
               <p className="mx-auto max-w-[600px] text-blue-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                No matter where you are in life, we're here to help you navigate your financial journey.
+                No matter where you are in life, we&apos;re here to help you navigate your financial journey.
               </p>
             </div>
             <div className="mx-auto flex flex-col gap-2 min-[400px]:flex-row justify-center">

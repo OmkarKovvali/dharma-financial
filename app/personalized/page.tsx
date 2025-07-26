@@ -35,7 +35,7 @@ export default function PersonalizedPage() {
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/images/finance.jpeg"
                 width={550}
                 height={550}
                 alt="Personalized financial consultation"
@@ -74,8 +74,8 @@ export default function PersonalizedPage() {
                   <Users className="h-10 w-10 text-blue-600 mb-4" />
                   <CardTitle>Family-Centered Planning</CardTitle>
                   <CardDescription>
-                    Our strategies consider your entire family's needs, from education funding to multi-generational
-                    wealth transfer.
+                                    Our strategies consider your entire family&apos;s needs, from education funding to multi-generational
+                wealth transfer.
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -101,7 +101,7 @@ export default function PersonalizedPage() {
                 Ready for a Personalized Financial Strategy?
               </h2>
               <p className="mx-auto max-w-[600px] text-blue-100 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Let's discuss how we can create a financial plan that's uniquely yours.
+                Let&apos;s discuss how we can create a financial plan that&apos;s uniquely yours.
               </p>
             </div>
             <div className="mx-auto flex flex-col gap-2 min-[400px]:flex-row justify-center">

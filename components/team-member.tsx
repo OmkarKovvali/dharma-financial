@@ -13,9 +13,9 @@ export default function TeamMember({ name, title, image, bio }: TeamMemberProps)
     <Card className="border-0 shadow-sm overflow-hidden">
       <div className="aspect-square overflow-hidden">
         <Image
-          src={image || "/placeholder.svg"}
-          width={300}
-          height={300}
+          src={image || "/images/iStock-1254014510.jpg.webp.jpeg"}
+          width={200}
+          height={200}
           alt={name}
           className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
         />

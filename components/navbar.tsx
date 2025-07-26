@@ -79,9 +79,6 @@ export default function Navbar() {
           <Link href="/who-we-serve" className="text-white transition-colors hover:text-blue-400">
             Who We Serve
           </Link>
-          <Link href="/gallery" className="text-white transition-colors hover:text-blue-400">
-            Gallery
-          </Link>
           <Link href="/contact" className="text-white transition-colors hover:text-blue-400">
             Contact Us
           </Link>
@@ -114,9 +111,6 @@ export default function Navbar() {
               </Link>
               <Link href="/who-we-serve" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
                 Who We Serve
-              </Link>
-              <Link href="/gallery" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
-                Gallery
               </Link>
               <Link href="/contact" className="text-lg font-medium" onClick={() => setIsOpen(false)}>
                 Contact Us

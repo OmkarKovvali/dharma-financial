@@ -34,7 +34,7 @@ export default function SchedulePage() {
                   </p>
                 </div>
                 <div className="h-[700px]">
-                  <CalBooking className="h-full" />
+                  <CalBooking />
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function SchedulePage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">What to Expect</h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Here's what you can expect during your consultation with our financial specialists.
+                  Here&apos;s what you can expect during your consultation with our financial specialists.
                 </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ export default function SchedulePage() {
                 </div>
                 <h3 className="text-xl font-bold">Discovery</h3>
                 <p className="text-center text-sm text-gray-500">
-                  We'll discuss your current financial situation, goals, and concerns to understand your unique needs.
+                  We&apos;ll discuss your current financial situation, goals, and concerns to understand your unique needs.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 rounded-lg border bg-white p-6 shadow-sm">
@@ -77,7 +77,7 @@ export default function SchedulePage() {
                 </div>
                 <h3 className="text-xl font-bold">Next Steps</h3>
                 <p className="text-center text-sm text-gray-500">
-                  We'll outline potential strategies and discuss how we can work together to achieve your goals.
+                  We&apos;ll outline potential strategies and discuss how we can work together to achieve your goals.
                 </p>
               </div>
             </div>

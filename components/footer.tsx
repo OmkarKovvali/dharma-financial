@@ -11,7 +11,7 @@ export default function Footer() {
             <span className="text-lg font-medium">Financial</span>
           </div>
           <p className="text-sm text-gray-500">
-            Personalized financial planning solutions to help you achieve your goals and secure your family's future.
+            Personalized financial planning solutions to help you achieve your goals and secure your family&apos;s future.
           </p>
           <div className="flex space-x-4">
             <Link href="#" className="text-gray-500 hover:text-blue-600">
@@ -90,10 +90,10 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="text-lg font-medium">Contact</h3>
           <ul className="space-y-2 text-sm text-gray-500">
-            <li>123 Financial Plaza, Suite 400</li>
-            <li>New York, NY 10001</li>
-            <li>(555) 123-4567</li>
-            <li>info@dharmafinancial.com</li>
+            <li>22375 Broderick Dr. S220</li>
+            <li>Sterling, VA 20166</li>
+            <li>703-346-7372</li>
+            <li>rkovvali@gmail.com</li>
           </ul>
         </div>
       </div>

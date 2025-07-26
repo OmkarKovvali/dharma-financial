@@ -89,7 +89,7 @@ export default function ServicesPage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/retirement-feature-1080x675.jpg"
                   width={500}
                   height={500}
                   alt="Retirement planning"
@@ -106,7 +106,7 @@ export default function ServicesPage() {
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
               <div className="flex items-center justify-center order-last lg:order-first">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/100408_Yard_045-1200x630.jpg.webp"
                   width={500}
                   height={500}
                   alt="College planning"
@@ -125,7 +125,7 @@ export default function ServicesPage() {
                   </p>
                   <p className="text-gray-500 md:text-lg">
                     We develop strategic savings and investment plans that maximize financial aid opportunities while
-                    building the resources needed to fund your children's education.
+                    building the resources needed to fund your children&apos;s education.
                   </p>
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">Our College Planning Services Include:</h3>
@@ -213,7 +213,7 @@ export default function ServicesPage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=500&width=500"
+                  src="/images/insurance.webp"
                   width={500}
                   height={500}
                   alt="Insurance solutions"
