@@ -1,19 +1,16 @@
 "use client";
 
-import { useEffect } from "react";
-
 export default function AdminPage() {
-  useEffect(() => {
-    // Redirect to the Tina CMS interface
-    // This will be handled by the Tina CMS CLI when running in dev mode
-    window.location.href = "/admin";
-  }, []);
-
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">Tina CMS Admin</h1>
-        <p className="text-gray-600">Redirecting to CMS interface...</p>
+        <p className="text-gray-600 mb-4">
+          The CMS interface should be available at the root admin path.
+        </p>
+        <p className="text-sm text-gray-500">
+          If you're seeing this, the Tina CMS may need to be configured differently.
+        </p>
       </div>
     </div>
   );
