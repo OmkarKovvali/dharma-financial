@@ -1,6 +1,5 @@
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import CalBooking from "@/components/cal-booking"
 
 export default function SchedulePage() {
   return (
@@ -14,8 +13,11 @@ export default function SchedulePage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Schedule a Consultation</h1>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed">
-                  Book a complimentary 30-minute consultation to discuss your financial goals and how we can help you
-                  achieve them.
+                  Online scheduling is temporarily unavailable while we update our calendar. To arrange a complimentary consultation, email{" "}
+                  <a className="font-medium text-blue-600 hover:underline" href="mailto:info@dharmafinancialgroup.com">
+                    info@dharmafinancialgroup.com
+                  </a>
+                  .
                 </p>
               </div>
             </div>
@@ -26,16 +28,17 @@ export default function SchedulePage() {
         <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-4xl">
-              <div className="rounded-lg border shadow-lg overflow-hidden">
-                <div className="p-6 bg-blue-50 border-b">
-                  <h2 className="text-2xl font-bold text-center">Book Your Consultation</h2>
-                  <p className="text-center text-gray-600 mt-2">
-                    Select a convenient time for your complimentary financial consultation
-                  </p>
-                </div>
-                <div className="h-[700px]">
-                  <CalBooking />
-                </div>
+              <div className="rounded-lg border bg-blue-50 p-6 text-center shadow-sm">
+                <h2 className="text-2xl font-bold">Online booking is temporarily unavailable</h2>
+                <p className="mt-2 text-gray-600">
+                  Please email us and we&apos;ll help you arrange a convenient time for your consultation.
+                </p>
+                <a
+                  className="mt-4 inline-flex rounded-md bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700"
+                  href="mailto:info@dharmafinancialgroup.com"
+                >
+                  Email our team
+                </a>
               </div>
             </div>
           </div>

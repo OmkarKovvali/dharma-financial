@@ -5,7 +5,6 @@ import { ArrowRight, Award, Clock, Users } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import TeamMember from "@/components/team-member"
 
 export default function AboutPage() {
   return (
@@ -82,29 +81,6 @@ export default function AboutPage() {
                   success.
                 </p>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Our Team */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Our Team</div>
-                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">Meet Our Expert</h2>
-                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Our team is led by experienced professionals dedicated to helping you achieve your financial goals.
-                </p>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-1 lg:grid-cols-1">
-              <TeamMember
-                name="Raj Kovvali"
-                title="Founder & CEO"
-                image="/images/1516242255037.jpeg"
-                bio="Raj Kovvali leads Dharma Financial Services with a commitment to transparency, client satisfaction, and long-term financial empowerment."
-              />
             </div>
           </div>
         </section>

@@ -92,8 +92,11 @@ export default function Footer() {
           <ul className="space-y-2 text-sm text-gray-500">
             <li>22375 Broderick Dr. S220</li>
             <li>Sterling, VA 20166</li>
-            <li>703-346-7372</li>
-            <li>rkovvali@gmail.com</li>
+            <li>
+              <a href="mailto:info@dharmafinancialgroup.com" className="hover:text-blue-600">
+                info@dharmafinancialgroup.com
+              </a>
+            </li>
           </ul>
         </div>
       </div>
