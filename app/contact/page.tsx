@@ -1,13 +1,11 @@
 "use client"
 
 import Image from "next/image"
-import { Calendar, Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
-import CalBooking from "@/components/cal-booking"
 
 export default function ContactPage() {
 
@@ -49,22 +47,13 @@ export default function ContactPage() {
                     <Card>
                       <CardContent className="flex items-center space-x-4 p-4">
                         <div className="rounded-full bg-blue-100 p-2">
-                          <Phone className="h-5 w-5 text-blue-600" />
-                        </div>
-                        <div>
-                          <h3 className="font-medium">Phone</h3>
-                          <p className="text-sm text-gray-500">703-346-7372</p>
-                        </div>
-                      </CardContent>
-                    </Card>
-                    <Card>
-                      <CardContent className="flex items-center space-x-4 p-4">
-                        <div className="rounded-full bg-blue-100 p-2">
                           <Mail className="h-5 w-5 text-blue-600" />
                         </div>
                         <div>
                           <h3 className="font-medium">Email</h3>
-                          <p className="text-sm text-gray-500">rkovvali@gmail.com</p>
+                          <a className="text-sm text-gray-500 hover:text-blue-600" href="mailto:info@dharmafinancialgroup.com">
+                            info@dharmafinancialgroup.com
+                          </a>
                         </div>
                       </CardContent>
                     </Card>
@@ -102,29 +91,24 @@ export default function ContactPage() {
                   </div>
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Get Started Today</h2>
                   <p className="text-gray-500 md:text-lg">
-                    Choose how you&apos;d like to connect with us - schedule a consultation or send us a message.
+                    Online scheduling is temporarily unavailable while we update our calendar. Please email our team to arrange a consultation.
                   </p>
 
-                  <Tabs defaultValue="schedule" className="w-full">
-                    <TabsList className="grid w-full grid-cols-1">
-                      <TabsTrigger value="schedule" className="flex items-center gap-2">
-                        <Calendar className="h-4 w-4" />
-                        Schedule Meeting
-                      </TabsTrigger>
-                    </TabsList>
-
-                    <TabsContent value="schedule" className="space-y-4">
-                      <div className="rounded-lg border p-4">
-                        <h3 className="text-lg font-semibold mb-2">Schedule Your Consultation</h3>
-                        <p className="text-sm text-gray-500 mb-4">
-                          Book a 30-minute consultation to discuss your financial goals and how we can help.
-                        </p>
-                        <div className="h-[600px] rounded-lg overflow-hidden border">
-                          <CalBooking />
-                        </div>
-                      </div>
-                    </TabsContent>
-                  </Tabs>
+                  <Card>
+                    <CardContent className="space-y-3 p-6">
+                      <h3 className="text-lg font-semibold">Contact us to schedule</h3>
+                      <p className="text-sm text-gray-500">
+                        Send us a message and we&apos;ll help you find a time that works.
+                      </p>
+                      <a
+                        className="inline-flex items-center gap-2 font-medium text-blue-600 hover:underline"
+                        href="mailto:info@dharmafinancialgroup.com"
+                      >
+                        <Mail className="h-4 w-4" aria-hidden="true" />
+                        Email our team
+                      </a>
+                    </CardContent>
+                  </Card>
                 </div>
               </div>
             </div>
